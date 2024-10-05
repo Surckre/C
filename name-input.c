@@ -7,5 +7,6 @@ int main() {
     printf("--------------------\n"); // decoration only
     printf("Hello %s! \n", name);
     printf("--------------------\n"); // decoration only
+    getchar(); //prevent from automatic closing terminal
     return 0;
 }
