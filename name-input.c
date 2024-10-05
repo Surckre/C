@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char* name[2];
+    char* name[256]; // buffer size
     printf("--------------------\n"); // decoration only
     scanf("%[^\n]", &name);
     printf("--------------------\n"); // decoration only
