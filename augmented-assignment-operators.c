@@ -2,7 +2,7 @@
 
 int main() {
 	int x = 10;
-	x += 3;
+	x += 3; // can be + - * / %
 
 	float y = 25.1;
 	y /= 4;
