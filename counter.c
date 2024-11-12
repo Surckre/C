@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS // just dont prevent buffer overflow (needed in vs 2022)
 #include <stdio.h>
 
 int main() {
